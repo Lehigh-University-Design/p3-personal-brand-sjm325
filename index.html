@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>CSS Exercise 8: Mosaic Gallery with CSS Grid</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    </head>
+
+    <body>
+
+        <main>
+
+            <div id="head">
+                <div>
+                    <a href="index.html" class="logo-holder">
+                        <img id="logo" src="images/logo.svg">
+                        <h3 id="logo-type">Transcend Sameness</h3>
+                    </a>
+                </div>
+                <div class="sub-head">
+                    <nav role="navigation">
+                        <div id="menuToggle">
+                          <input type="checkbox" id="menuCheckbox" />
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <ul id="menu">
+                            <li>
+                              <a href="#">
+                                <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#about">
+                                <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+
+            <div class="hero" style="background-image: url(images/home-bw.png)">
+                <div id="home-slogan">
+                    <div class="wrapper grid">
+                        <div id="home-slogan-text">
+                            <h1>See Your World In Color</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div id="home-intro" class="grid">
+                    <div class="intro width-12-12-m width-6-12-i width-6-12">
+                        <h2>About</h2> 
+                        <h2>Transcend Sameness </h2>
+                        <p>This website is a space for those who are new to their emotions, just as I once was. Here, you’ll find guidance and support to help you navigate the complexities of feeling. Whether you’re seeking to understand joy, process sadness, or simply explore what it means to be human, this is your journey.</p>
+                        <p>Together, we’ll delve into the world of emotions, share our experiences, and learn to embrace the full spectrum of what it means to feel. Welcome to this journey of discovery—let’s explore the beauty of emotions together.</p>
+                    </div>
+                    <div class="intro width-12-12-m width-3-12-i width-3-12">
+                        card
+                    </div>
+                    <div class="intro width-12-12-m width-3-12-i width-3-12">
+                        card
+                    </div>
+                </div>
+                <div id="home-quote" class="grid">
+                    <div class="intro width-12-12-m width-12-12-i width-12-12">
+                        <p>
+                            "The worst part of holding the memories is not the pain. It’s the loneliness of it. Memories need to be shared." 
+                        </p>
+                        <p>
+                            -The Giver
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="footer">
+                <div class="wrapper">
+                    <div class="grid">
+                        <div class="width-12-12-i width-6-12-i width-4-12">
+                            <p>some footer text</p>
+                        </div>
+                        <div class="width-12-12-i width-6-12-i width-4-12">
+                            <p>some footer text</p>
+                        </div>
+                        <div class="width-12-12-i width-6-12-i width-4-12">
+                            <p>some footer text</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </main>
+
+
+
+    </body>
+
+</html>
