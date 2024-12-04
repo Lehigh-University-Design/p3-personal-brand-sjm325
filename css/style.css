@@ -221,3 +221,137 @@ nav {
     background-color: var(--light-grey);
 }
 
+/* Main Title: "A World Beyond Sameness Awaits" */
+.main-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 400; /* Regular weight */
+    color: #333; /* Dark grey */
+}
+
+/* Section Titles: "Learn About" and "Support/Resources" */
+.section-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight: 600; /* Semi-bold */
+    color: #333;
+    margin-bottom: 1em;
+}
+
+/* List Items: Items under Learn About and Support/Resources */
+.list-item {
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    font-weight: 700; /* Bold */
+    color: #555;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5em;
+    transition: color 0.3s ease;
+}
+
+.list-item:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+/* Footer Branding: "Transcend Sameness" */
+.brand-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 164px;
+    font-weight: 200; /* Extra light */
+    color: #333; /* Dark grey */
+    letter-spacing: 1px; /* Subtle letter spacing for elegance */
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #f8f8f8;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800; /* Bold */
+    font-size: 36px;
+}
+
+/* Section Titles */
+.section h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Jonas Journey Text */
+.text-column p {
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+}
+
+/* Memory Cards */
+.memory-card .overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.memory-card .overlay h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.memory-card .overlay p {
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.learn-more {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Insights Section */
+.insight-number {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    color: #ddd;
+}
+
+.insight h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.read-more {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Giver Image */
+.giver-image img {
+    width: 100%;
+    border-radius: 10px;
+}

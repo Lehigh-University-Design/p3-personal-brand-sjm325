@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CSS Exercise 8: Mosaic Gallery with CSS Grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+    <main>
+
+        <div id="head">
+            <div>
+                <a href="index.html" class="logo-holder">
+                    <img id="logo" src="images/TSlogo.ai">
+                    <h3 id="logo-type">Transcend Sameness</h3>
+                </a>
+            </div>
+            <div class="sub-head">
+                <nav role="navigation">
+                    <div id="menuToggle">
+                        <input type="checkbox" id="menuCheckbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                            <li>
+                                <a href="home">
+                                    <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#support">
+                                    <label for="menuCheckbox" onclick="this.parentNode.click();">Support</label>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonas Journey | Memories | The Giver's Insights</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Transcend Sameness</h1>
+        </div>
+    </header>
+
+    <main>
+        <!-- Jonas Journey Section -->
+        <section id="jonas-journey" class="section">
+            <h2>The Journey of Jonas</h2>
+            <div class="grid">
+                <div class="image-column">
+                    <img src="jonas.jpg" alt="Jonas">
+                </div>
+                <div class="text-column">
+                    <p>Hello, I'm Jonas. I grew up in a world where emotions were stifled...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memories Section -->
+        <section id="memories" class="section">
+            <h2>Memories</h2>
+            <div class="grid">
+                <div class="memory-card">
+                    <img src="snow.jpg" alt="Snow and Cold">
+                    <div class="overlay">
+                        <h3>Snow and Cold</h3>
+                        <p>This memory highlights the joys and challenges of nature</p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="color.jpg" alt="Color">
+                    <div class="overlay">
+                        <h3>Color</h3>
+                        <p>Reveals the beauty and diversity of the world</p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="family.jpg" alt="Love and Family">
+                    <div class="overlay">
+                        <h3>Love and Family</h3>
+                        <p>Learn about emotions and deep connections</p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="war.jpg" alt="War and Pain">
+                    <div class="overlay">
+                        <h3>War and Pain</h3>
+                        <p>Memories of conflict and suffering, such as war and loss</p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Insights Section -->
+        <section id="givers-insights" class="section">
+            <h2>Insights from The Giver</h2>
+            <div class="grid">
+                <div class="insight">
+                    <div class="insight-number">01</div>
+                    <h3>Importance of Memories</h3>
+                    <p>The Giver explains that memories are essential for wisdom...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+                <div class="giver-image">
+                    <img src="giver.jpg" alt="The Giver">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+        </div>

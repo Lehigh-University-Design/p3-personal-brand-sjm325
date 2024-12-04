@@ -6,9 +6,7 @@
   grid-gap: 2vw;
 }
 
-.grid div {
-  
-}
+.grid div {}
 
 /* M O B I L E */
 
@@ -196,4 +194,582 @@
     order: 4;
   }
 
-}
+  #footer {
+    background: #f8f8f8;
+    padding: 2em 1em 4em;
+    /* Extra space for the branding below columns */
+  }
+
+  /* Wrapper for content alignment */
+  #footer .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Grid layout for columns */
+  #footer .grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Ensures responsive stacking */
+    gap: 2em;
+    /* Space between columns */
+  }
+
+  /* Individual column layout */
+  #footer .column {
+    flex: 1;
+    min-width: 200px;
+    /* Minimum width for each column */
+    padding: 0 1em;
+  }
+
+  /* Footer Branding */
+  .footer-branding {
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  #footer .wrapper {
+    max-width: 1200px;
+    /* Centralize content within this width */
+    margin: 0 auto;
+    /* Align to the center horizontally */
+    display: flex;
+    flex-direction: column;
+    /* Stack sections in a column layout */
+    gap: 2em;
+    /* Space between footer sections */
+  }
+
+  /* Grid layout for footer content */
+  #footer .grid {
+    display: flex;
+    justify-content: space-between;
+    /* Evenly space columns */
+    flex-wrap: wrap;
+    /* Wrap columns for responsiveness */
+  }
+
+  /* Columns for footer sections */
+  #footer .column {
+    flex: 1;
+    /* Equal size for all columns */
+    min-width: 200px;
+    /* Minimum width for each column */
+    padding: 1em;
+    /* Inner padding for spacing */
+  }
+
+  /* Footer bottom section (flex for copyright and social icons) */
+  #footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    /* Space items to edges */
+    align-items: center;
+    /* Center content vertically */
+    border-top: 1px solid #ddd;
+    /* Separator line */
+    padding-top: 1em;
+    /* Space above the line */
+  }
+
+  /* General Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #f8f8f8;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5em 1em;
+  }
+
+  .hero h2 {
+    font-size: 2.5em;
+  }
+
+  .about {
+    padding: 2em 1em;
+    background: #fff;
+    text-align: center;
+  }
+
+  .about h2 span {
+    color: #555;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+  }
+
+  .card {
+    background: #f9f9f9;
+    padding: 1em;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .card h3 {
+    margin: 1em 0;
+  }
+
+  .card a {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  .quote {
+    background: #f1f1f1;
+    padding: 2em 1em;
+    text-align: center;
+  }
+
+  .quote blockquote {
+    font-size: 1.5em;
+    margin: 1em 0;
+  }
+
+  .quote .cta {
+    display: inline-block;
+    margin-top: 1em;
+    background: #007bff;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+
+  /* Footer Styling */
+  #footer {
+    background: #f8f8f8;
+    padding: 2em 1em;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+
+  #footer .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  #footer .grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #footer .column {
+    flex: 1;
+    min-width: 200px;
+    padding: 1em;
+  }
+
+  #footer .column p {
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #555;
+  }
+
+  #footer .column ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #footer .column ul li {
+    margin-bottom: 0.5em;
+  }
+
+  #footer .column ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.9em;
+  }
+
+  #footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 1em;
+    font-size: 0.9em;
+  }
+
+  #footer .social-icons {
+    display: flex;
+    gap: 1em;
+  }
+
+  #footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+  }
+
+  #footer .social-icons img:hover {
+    opacity: 0.7;
+  }
+
+  /* Grid.css */
+
+  /* Wrapper for central alignment and width control */
+  #footer .wrapper {
+    max-width: 1200px;
+    /* Centralize content within this width */
+    margin: 0 auto;
+    /* Align to the center horizontally */
+    display: flex;
+    flex-direction: column;
+    /* Stack sections in a column layout */
+    gap: 2em;
+    /* Space between footer sections */
+  }
+
+  /* Grid layout for footer content */
+  #footer .grid {
+    display: flex;
+    justify-content: space-between;
+    /* Evenly space columns */
+    flex-wrap: wrap;
+    /* Wrap columns for responsiveness */
+  }
+
+  /* Columns for footer sections */
+  #footer .column {
+    flex: 1;
+    /* Equal size for all columns */
+    min-width: 200px;
+    /* Minimum width for each column */
+    padding: 1em;
+    /* Inner padding for spacing */
+  }
+
+  /* Footer bottom section (flex for copyright and social icons) */
+  #footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    /* Space items to edges */
+    align-items: center;
+    /* Center content vertically */
+    border-top: 1px solid #ddd;
+    /* Separator line */
+    padding-top: 1em;
+    /* Space above the line */
+  }
+
+
+  /* Style.css */
+
+  /* Footer general styles */
+  #footer {
+    background: #f8f8f8;
+    /* Light grey background */
+    padding: 2em 1em;
+    /* Padding around the footer */
+    color: #333;
+    /* Dark grey text */
+    font-family: 'Arial', sans-serif;
+    /* Font style */
+  }
+
+  /* Column titles (e.g., "Learn About", "Support/Resources") */
+  #footer .column p {
+    font-weight: bold;
+    /* Bold headings */
+    margin-bottom: 1em;
+    /* Space below the title */
+    text-transform: uppercase;
+    /* Uppercase text for emphasis */
+    font-size: 1em;
+    color: #555;
+    /* Medium grey text */
+  }
+
+  /* Unordered lists within footer columns */
+  #footer .column ul {
+    list-style: none;
+    /* Remove default bullets */
+    padding: 0;
+    /* No padding */
+  }
+
+  #footer .column ul li {
+    margin-bottom: 0.5em;
+    /* Space between list items */
+  }
+
+  /* Footer links */
+  #footer .column ul li a {
+    text-decoration: none;
+    /* Remove underline */
+    color: #007bff;
+    /* Blue text for links */
+    font-size: 0.9em;
+    /* Slightly smaller text */
+  }
+
+  /* Footer social icons */
+  #footer .social-icons {
+    display: flex;
+    gap: 1em;
+    /* Space between icons */
+  }
+
+  #footer .social-icons img {
+    width: 24px;
+    /* Icon width */
+    height: 24px;
+    /* Icon height */
+    transition: opacity 0.3s ease;
+    /* Smooth hover effect */
+  }
+
+  #footer .social-icons img:hover {
+    opacity: 0.7;
+    /* Dim slightly on hover */
+  }
+
+  /* Footer bottom text */
+  #footer .footer-bottom p {
+    font-size: 0.9em;
+    /* Small text for copyright */
+    color: #555;
+    /* Grey color */
+  }
+
+
+
+  /* General Font Styles */
+  body {
+    font-family: 'Raleway', sans-serif;
+    /* Default font for the website */
+    line-height: 1.6;
+    /* Improve readability */
+  }
+
+  /* Footer Styling */
+  #footer {
+    font-family: 'Crimson Text', serif;
+    /* Elegant serif font for the footer */
+    background: #f8f8f8;
+    padding: 2em 1em;
+    color: #333;
+  }
+
+  /* Column titles (e.g., "Learn About", "Support/Resources") */
+  #footer .column p {
+    font-family: 'Crimson Text', serif;
+    /* Apply Crimson Text to headings */
+    font-weight: bold;
+    /* Bold for emphasis */
+    font-size: 1.1em;
+    /* Slightly larger for importance */
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    /* Uppercase styling */
+    color: #555;
+    /* Medium grey */
+  }
+
+  /* Links in Footer */
+  #footer .column ul li a {
+    font-family: 'Raleway', sans-serif;
+    /* Modern sans-serif for links */
+    font-size: 0.9em;
+    /* Smaller font size for links */
+    text-decoration: none;
+    color: #007bff;
+    /* Blue color for links */
+    transition: color 0.3s ease;
+    /* Smooth hover effect */
+  }
+
+  #footer .column ul li a:hover {
+    color: #0056b3;
+    /* Darker blue on hover */
+  }
+
+  /* Footer Bottom Section */
+  #footer .footer-bottom p {
+    font-family: 'Raleway', sans-serif;
+    /* Clean sans-serif for copyright text */
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  #footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+  }
+
+  #footer .social-icons img:hover {
+    opacity: 0.7;
+    /* Hover effect for icons */
+  }
+
+
+  /* Grid.css */
+
+  /* Wrapper general font inheritance */
+  #footer .wrapper {
+    font-family: inherit;
+    /* Inherit font-family from parent elements */
+  }
+
+
+  /* General Footer Layout */
+  #footer {
+    background: #f8f8f8;
+    padding: 2em 1em 4em;
+    /* Extra space for the branding below columns */
+  }
+
+  /* Wrapper for content alignment */
+  #footer .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Grid layout for columns */
+  #footer .grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Ensures responsive stacking */
+    gap: 2em;
+    /* Space between columns */
+  }
+
+  /* Individual column layout */
+  #footer .column {
+    flex: 1;
+    min-width: 200px;
+    /* Minimum width for each column */
+    padding: 0 1em;
+  }
+
+  /* Footer Branding */
+  .footer-branding {
+    text-align: center;
+    margin-top: 2em;
+  }
+
+
+
+  /* Main Title: "A World Beyond Sameness Awaits" */
+  .main-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    /* Regular weight */
+    color: #333;
+    /* Dark grey */
+  }
+
+  /* Section Titles: "Learn About" and "Support/Resources" */
+  .section-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    /* Semi-bold */
+    color: #333;
+    margin-bottom: 1em;
+  }
+
+  /* List Items: Items under Learn About and Support/Resources */
+  .list-item {
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    font-weight: 700;
+    /* Bold */
+    color: #555;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5em;
+    transition: color 0.3s ease;
+  }
+
+  .list-item:hover {
+    color: #007bff;
+    /* Blue on hover */
+  }
+
+  /* Footer Branding: "Transcend Sameness" */
+  .brand-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 164px;
+    font-weight: 200;
+    /* Extra light */
+    color: #333;
+    /* Dark grey */
+    letter-spacing: 1px;
+    /* Subtle letter spacing for elegance */
+  }
+
+
+  /* Responsive Layout for Small Screens */
+  @media (max-width: 768px) {
+    #footer .grid {
+      flex-direction: column;
+      /* Stack columns vertically */
+      gap: 1em;
+      /* Reduce gap for smaller space */
+    }
+
+    .brand-title {
+      font-size: 120px;
+      /* Reduce size for branding */
+    }
+  }
