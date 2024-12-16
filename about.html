@@ -1,26 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | Transcend Sameness</title>
+    <title>Transcend Sameness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Raleway:wght@100;400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/grid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
 </head>
 
 <body>
-    <header>
-        <div class="header-container">
-            <a href="index.html" class="logo-holder">
-                <img id="logo" src="images/tslogo.png" alt="Transcend Sameness Logo">
-                <h1>Transcend Sameness</h1>
-            </a>
+
+    <main>
+
+        <div id="head">
+            <header>
+                <div class="header-container">
+                    <a href="index.html" class="logo-holder">
+                        <img id="logo" src="images/tslogo.png" alt="Transcend Sameness Logo">
+                        <h1>Transcend Sameness</h1>
+                    </a>
+                </div>
+            </header>
+            <div class="sub-head">
+                <nav role="navigation">
+                    <div id="menuToggle">
+                        <input type="checkbox" id="menuCheckbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                            <li>
+                                <a href="index.html">
+                                    <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="support.html">
+                                    <label for="menuCheckbox" onclick="this.parentNode.click();">Support</label>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
-    </header>
+
+<body>
+   
 
     <main>
         <section id="jonas-journey" class="section">
@@ -85,29 +123,135 @@
         </section>
 
 
-        <section id="givers-insights" class="section">
+        <section id="giver-insights" class="section">
             <h2 class="section-title">Insights from The Giver</h2>
-            <div class="grid two-columns">
-                <div class="insight">
-                    <div class="insight-number">01</div>
-                    <h3>Importance of Memories</h3>
-                    <p>The Giver explains that memories are essential for wisdom. He shares joyful, painful, and intense memories with Jonas to help him understand the full spectrum of human experience. Through memories, Jonas learns about concepts that have been erased in his society, like love, family, and loss.</p>
-                    <a href="#" class="read-more">Read More →</a>
-                </div>
-                <div class="giver-image">
-                    <img src="images/giver.jpg" alt="The Giver" class="responsive-img">
-                </div>
-                <div class="insight-number">02</div>
-                <h3>Pain As a Teacher</h3>
-                <p>The Giver tells Jonas that pain has value because it teaches empathy, resilience, and understanding. Without pain, people cannot fully appreciate joy or understand the struggles of others.</p>
-                <a href="#" class="read-more">Read More →</a>
-            </div>
-            <div class="giver-image">
-                <img src="images/giver.jpg" alt="The Giver" class="responsive-img">
-            </div>
-            </div>
-        </section>
-    </main>
-</body>
 
-</html>
+            <!-- Insight 1 -->
+            <div class="insight-row">
+                <div class="insight-text">
+                    <span class="insight-number">01</span>
+                    <span class="insight-label">INSIGHT</span>
+                    <h3 class="insight-title">Importance of Memories</h3>
+                    <p>
+                        The Giver explains that memories are essential for wisdom. He shares joyful, painful, and
+                        intense memories with Jonas to help him understand the full spectrum of human experience.
+                        Through memories, Jonas learns about concepts that have been erased in his society, like love,
+                        family, and loss.
+                    </p>
+                    <a href="#" class="read-more">read more →</a>
+                </div>
+                <div class="insight-image">
+                    <img src="images/memories.jpg" alt="Importance of Memories">
+                </div>
+            </div>
+
+            <!-- Insight 2 -->
+            <div class="insight-row reverse">
+                <div class="insight-image">
+                    <img src="images/painasteacher.jpg" alt="Pain as a Teacher">
+                </div>
+                <div class="insight-text">
+                    <span class="insight-number">02</span>
+                    <span class="insight-label">INSIGHT</span>
+                    <h3 class="insight-title">Pain as a Teacher</h3>
+                    <p>
+                        The Giver tells Jonas that pain has value because it teaches empathy, resilience, and
+                        understanding. Without pain, people cannot fully appreciate joy or understand the struggles of
+                        others.
+                    </p>
+                    <a href="#" class="read-more">read more →</a>
+                </div>
+            </div>
+
+
+            <div class="insight-row">
+                <div class="insight-text">
+                    <span class="insight-number">03</span>
+                    <span class="insight-label">INSIGHT</span>
+                    <h3 class="insight-title">The Power of Choice</h3>
+                    <p>
+                        The Giver helps Jonas see that the ability to make choices is part of what makes life meaningful. In a world without choices, people lose their individuality, but choice also comes with responsibility and risk. Jonas realizes how limiting it is to live in a controlled environment where people cannot make even the smallest decisions for themselves.
+                    </p>
+                    <a href="#" class="read-more">read more →</a>
+                </div>
+                <div class="insight-image">
+                    <img src="images/choice.jpg" alt="The Power of Choice">
+                </div>
+            </div>
+
+           
+            <div class="insight-row reverse">
+                <div class="insight-image">
+                    <img src="images/sameness.jpg" alt="True Emotion Vs Sameness">
+                </div>
+                <div class="insight-text">
+                    <span class="insight-number">04</span>
+                    <span class="insight-label">INSIGHT</span>
+                    <h3 class="insight-title">True Emotion Vs Sameness</h3>
+                    <p>
+                        The Giver explains that "Sameness" was adopted to make life predictable and safe, but it also stripped people of authentic emotions. The suppressed emotions in Jonas's community are a pale imitation of real feelings. Through memories, Jonas learns what it means to feel true love, anger, fear, and joy, and he comes to understand the cost of living without them.
+                    </p>
+                    <a href="#" class="read-more">read more →</a>
+                </div>
+            </div>
+            <div class="insight-row reverse">
+                <div class="insight-image">
+                    <img src="images/surpressingtruth.jpg" alt="The Danger of Surpressing Truth">
+                </div>
+                <div class="insight-text">
+                    <span class="insight-number">05</span>
+                    <span class="insight-label">INSIGHT</span>
+                    <h3 class="insight-title">The Danger of Surpressing Truth</h3>
+                    <p>
+                        To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction.
+                    </p>
+                    <a href="#" class="read-more">read more →</a>
+                </div>
+            </div>
+            <div class="insight-row reverse">
+                <div class="insight-image">
+                    <img src="images/sacrifice.jpg" alt="Sacrifice for the Greater Good">
+                </div>
+                <div class="insight-text">
+                    <span class="insight-number">06</span>
+                    <span class="insight-label">INSIGHT</span>
+                    <h3 class="insight-title">Sacrifice for the Greater Good</h3>
+                    <p>
+                        The Giver shares that he holds the painful memories alone as a form of sacrifice for the community's stability. He explains that this burden isolates him but is also necessary to maintain balance. This teaches Jonas about the weight of responsibility and the sacrifices leaders sometimes make for others.
+                    </p>
+                    <a href="#" class="read-more">read more →</a>
+                </div>
+            </div>
+    
+        </section>
+        <div id="footer">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class="width-12-12-i width-3-12-i width-3-12">
+                        <p style="font-size: 25px;"> A World Beyond Sameness Awaits</p>
+                    </div>
+                    <div class="width-12-12-i width-3-12-i width-3-12">
+                        <p style="font-size: large;">Learn About </p> 
+                        <p style="padding-left: 5px;"> Jonas' Journey</p>
+                        <p style="padding-left: 5px;">The Giver's Insights</p>
+                        <p style="padding-left: 5px;">Memories</p>
+                    </div>
+                    <div class="width-12-12-i width-3-12-i width-3-12">
+                        <p style="font-size: large;">Support/Resources </p>
+                        <p style="padding-left: 5px;"> Mentorship</p>
+                        <p style="padding-left: 5px;"> Community Engagement </p>
+                        <p style="padding-left: 5px;"> Creative Expression </p>
+                        <p style="padding-left: 5px;"> Exercises and Reflection </p>
+                        <p style="padding-left: 5px;"> Emotional Regulation </p>
+                       
+                    </div>
+                    <div class="width-12-12-i width-3-12-i width-3-12">
+                        <img src="images/socials.png">
+                    </div>
+                </div>
+                <div>
+                    <p style="font-size: 8vw;">Transcend Sameness</p>
+                    
+                </div>
+            </div>
+        </div>

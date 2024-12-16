@@ -1,93 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support/Resources | Transcend Sameness</title>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Raleway:wght@100;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/grid.css">
+    <title>Transcend Sameness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
 </head>
+
 <body>
-    <header>
-        <div class="header-container">
-            <a href="index.html" class="logo-holder">
-                <img src="images/TSlogo.svg" alt="Transcend Sameness Logo" id="logo">
-                <h1>Transcend Sameness</h1>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="support.html" class="active">Support/Resources</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-text">
-                <h2>Creative Expression Is The Heartbeat Of Individuality</h2>
-                <p>It Is Through Embracing Our Unique Differences That We Unlock The Power To Connect, Inspire, And Transform The World Around Us.</p>
-            </div>
-        </section>
 
-        <!-- Support/Resources Section -->
-        <section class="resources">
-            <h2>Support/Resources</h2>
-            <div class="grid two-columns">
-                <div class="text">
-                    <p>We believe in empowering individuals to express their true selves and celebrate their unique stories...</p>
-                    <p>Our mission is to cultivate a community where creativity and individuality are not just welcomed but celebrated...</p>
-                </div>
-                <div class="image">
-                    <img src="images/lake.jpg" alt="Lake view" class="responsive-img">
-                </div>
+        <div id="head">
+            <div>
+                <a href="index.html" class="logo-holder">
+                    <img id="logo" src="images/logo.svg">
+                    <h3 id="logo-type">Transcend Sameness</h3>
+                </a>
             </div>
-
-            <div class="grid three-columns cards">
-                <div class="card">
-                    <h3>Unlock the Courage to Be Uniquely You</h3>
-                </div>
-                <div class="card">
-                    <h3>Community Engagement</h3>
-                    <p>Share Interests and Art</p>
-                    <p>Share Stories and Get Advice</p>
-                </div>
-                <div class="card">
-                    <h3>Workshops</h3>
-                    <ul>
-                        <li>Creative Expression</li>
-                        <li>Practical Exercises and Reflection</li>
-                        <li>Emotional Regulation</li>
-                    </ul>
-                </div>
-                <div class="card wide">
-                    <h3>Get Mentor</h3>
-                    <p>Have some questions? →</p>
-                </div>
+            <div class="sub-head">
+                <nav role="navigation">
+                    <div id="menuToggle">
+                        <input type="checkbox" id="menuCheckbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                            <li>
+                                <a href="#">
+                                    <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="about.html">
+                                    <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="support.html">
+                                    <label for="menuCheckbox" onclick="this.parentNode.click();">Support</label>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-top">
-            <h3>A World Beyond Sameness Awaits</h3>
-            <ul>
-                <li><a href="about.html">Learn About</a></li>
-                <li><a href="support.html">Support/Resources</a></li>
-            </ul>
         </div>
-        <div class="footer-bottom">
-            <p>© 2024 Transcend Sameness</p>
-            <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-            </ul>
+
+        
+            <section class="hero-section">
+                <div class="hero-overlay">
+                    <h2>Creative Expression Is The Heartbeat Of Individuality;<br>
+                        It Is Through Embracing Our Unique Differences That<br>
+                        We Unlock The Power To Connect, Inspire, And<br>
+                        Transform The World Around Us.</h2>
+                </div>
+                <img src="images/prettyimage.jpeg" alt="Hero Background" class="hero-image">
+            </section>
+    
+            <section class="support-resources">
+                <div class="container">
+                    <div class="support-content">
+                        <h2 class="section-title">Support/Resources</h2>
+                        <p>We believe in empowering individuals to express their true selves and celebrate their unique stories. We provide the support, resources, and encouragement needed for everyone to embrace their differences and stand confidently in their authenticity...</p>
+                    </div>
+                    <div class="support-image">
+                        <img src="images/support-main.jpg" alt="Support Image">
+                    </div>
+                </div>
+    
+                <!-- Resource Cards -->
+                <div class="resource-grid">
+                    <div class="resource-card pink">
+                        <h3>Unlock the Courage to Be Uniquely You</h3>
+                    </div>
+                    <div class="resource-card image-card">
+                        <img src="images/resource-1.jpg" alt="Nature Image">
+                    </div>
+                    <div class="resource-card">
+                        <h4>Workshops</h4>
+                        <ul>
+                            <li>Creative Expression</li>
+                            <li>Practical Exercises and Reflection</li>
+                            <li>Emotional Regulation</li>
+                        </ul>
+                    </div>
+                    <div class="resource-card border-card">
+                        <h4><span>Community Engagement</span></h4>
+                        <p>Share Interests and Art<br>Share Stories and Get Advice</p>
+                    </div>
+                    <div class="resource-card contact-card">
+                        <h3>Get Mentor</h3>
+                        <p>Have some questions?</p>
+                    </div>
+                </div>
+            </section>
+    
+        </main>
+    </body>
+    <div id="footer">
+        <div class="wrapper">
+            <div class="grid">
+                <div class="width-12-12-i width-3-12-i width-3-12">
+                    <p style="font-size: 25px;"> A World Beyond Sameness Awaits</p>
+                </div>
+                <div class="width-12-12-i width-3-12-i width-3-12">
+                    <p style="font-size: large;">Learn About </p> 
+                    <p style="padding-left: 5px;"> Jonas' Journey</p>
+                    <p style="padding-left: 5px;">The Giver's Insights</p>
+                    <p style="padding-left: 5px;">Memories</p>
+                </div>
+                <div class="width-12-12-i width-3-12-i width-3-12">
+                    <p style="font-size: large;">Support/Resources </p>
+                    <p style="padding-left: 5px;"> Mentorship</p>
+                    <p style="padding-left: 5px;"> Community Engagement </p>
+                    <p style="padding-left: 5px;"> Creative Expression </p>
+                    <p style="padding-left: 5px;"> Exercises and Reflection </p>
+                    <p style="padding-left: 5px;"> Emotional Regulation </p>
+                   
+                </div>
+                <div class="width-12-12-i width-3-12-i width-3-12">
+                    <img src="images/socials.png">
+                </div>
+            </div>
+            <div>
+                <p style="font-size: 8vw;">Transcend Sameness</p>
+                
+            </div>
         </div>
-    </footer>
-</body>
-</html>
+    </div>
+    </html>
