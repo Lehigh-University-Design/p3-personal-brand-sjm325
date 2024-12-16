@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>CSS Exercise 8: Mosaic Gallery with CSS Grid</title>
+    <title>Transcend Sameness</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,7 +22,7 @@
         <div id="head">
             <div>
                 <a href="index.html" class="logo-holder">
-                    <img id="logo" src="images/TSlogo.ai">
+                    <img id="logo" src="images/logo.svg">
                     <h3 id="logo-type">Transcend Sameness</h3>
                 </a>
             </div>
@@ -40,13 +40,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="jonas-journey.html">
-                                    <label for="menuCheckbox" onclick="this.parentNode.click();">Jonas</label>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="support.html">
-                                    <label for="menuCheckbox" onclick="this.parentNode.click();">Support</label>
+                                <a href="about.html">
+                                    <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
                                 </a>
                             </li>
                         </ul>
@@ -67,9 +62,9 @@
 
         <div class="wrapper">
             <div id="home-intro" class="grid">
-                <div class="intro width-12-12-m width-6-12-i width-6-12">
+                <div class="intro width-12-12-m width-4-12-i width-4-12">
                     <h2>About</h2>
-                    <h2>Transcend Sameness </h2>
+                    <h2><em>Transcend Sameness</em></h2>
                     <p>This website is a space for those who are new to their emotions, just as I once was. Here, you’ll
                         find guidance and support to help you navigate the complexities of feeling. Whether you’re
                         seeking to understand joy, process sadness, or simply explore what it means to be human, this is
@@ -78,39 +73,28 @@
                         full spectrum of what it means to feel. Welcome to this journey of discovery—let’s explore the
                         beauty of emotions together.</p>
                 </div>
-
-
-
-
-
-
-
-
-                <section class="about">
-                <div class="grid three-columns">
+                <div class="intro width-12-12-m width-8-12-i width-8-12" style="display:flex;">
                     <div class="card">
-                <!-- <div class="intro width-12-12-m width-3-12-i width-3-12"> -->
-                
-                    <img src="jonas.webp" alt="Jonas Journey">
-                    <h3>Jonas Journey</h3>
-                    <p>How I discovered the richness of life</p>
-                    <a href="jonas-journey.html">Learn More</a>
-                </div>
-                <!-- <div class="intro width-12-12-m width-3-12-i width-3-12"> -->
-                   
+                        <img src="images/jonas.webp" alt="Jonas" style="width:100%">
+                        <div class="container">
+                            <h4><strong>Jonas' Journey</strong></h4>
+                            <p>How I discovered the richness of life</p>
+                        </div>
+                    </div>
                     <div class="card">
-                    <img src="thegiver.jpg" alt="The Giver's Insights">
-                    <h3>The Giver's Insights</h3>
-                    <p>My mentor and who told me the truths of the world</p>
-                    <a href="jonas-journey.html">Learn More</a>
-                </div>
-                <!-- <div class="intro width-12-12-m width-3-12-i width-3-12"> -->
-                   
+                        <img src="images/giver.jpg" alt="The Giver" style="width:75%">
+                        <div class="container">
+                            <h4><strong>The Giver's Insights</strong></h4>
+                            <p>My mentor and who told me the truths of the world</p>
+                        </div>
+                    </div>
                     <div class="card">
-                    <img src="resources.jpg" alt="Support & Resources">
-                    <h3>Support & Resources</h3>
-                    <p>If you want a community, a mentor, or any resources</p>
-                    <a href="support.html">Learn More</a>
+                        <img src="images/jonas.webp" alt="Support and Resources" style="width:100%">
+                        <div class="container">
+                            <h4><strong>Support & Resources</strong></h4>
+                            <p>If you want a community, a mnetor, or any resources</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="home-quote" class="grid">
@@ -128,57 +112,34 @@
 
         <div id="footer">
             <div class="wrapper">
-                <div class="grid"><div id="footer">
-                    <div class="wrapper">
-                        <div class="grid">
-                            <!-- Column 1: A World Beyond Sameness -->
-                            <div class="column">
-                                <p class="main-title">A World Beyond Sameness Awaits</p>
-                            </div>
-                
-                            <!-- Column 2: Learn About -->
-                            <div class="column">
-                                <p class="section-title">Learn About</p>
-                                <ul>
-                                    <li><a href="jonas-journey" class="list-item">Jonas Journey</a></li>
-                                    <li><a href="the-giver's-insights" class="list-item">The Giver's Insights</a></li>
-                                    <li><a href="memories" class="list-item">Memories</a></li>
-                                </ul>
-                            </div>
-                
-                            <!-- Column 3: Support/Resources -->
-                            <div class="column">
-                                <p class="section-title">Support/Resources</p>
-                                <ul>
-                                    <li><a href="mentorship" class="list-item">Mentorship</a></li>
-                                    <li><a href="community-engagement" class="list-item">Community Engagement</a></li>
-                                    <li><a href="creative-expression" class="list-item">Creative Expression</a></li>
-                                    <li><a href="exercises-and-reflection" class="list-item">Exercises and Reflection</a></li>
-                                    <li><a href="emotional-regulation" class="list-item">Emotional Regulation</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Footer Branding -->
-                        <div class="footer-branding">
-                            <p class="brand-title">Transcend Sameness</p>
-                        </div>
+                <div class="grid">
+                    <div class="width-12-12-i width-3-12-i width-3-12">
+                        <p style="font-size: 25px;"> A World Beyond Sameness Awaits</p>
+                    </div>
+                    <div class="width-12-12-i width-3-12-i width-3-12">
+                        <p style="font-size: large;">Learn About </p> 
+                        <p style="padding-left: 5px;"> Jonas' Journey</p>
+                        <p style="padding-left: 5px;">The Giver's Insights</p>
+                        <p style="padding-left: 5px;">Memories</p>
+                    </div>
+                    <div class="width-12-12-i width-3-12-i width-3-12">
+                        <p style="font-size: large;">Support/Resources </p>
+                        <p style="padding-left: 5px;"> Mentorship</p>
+                        <p style="padding-left: 5px;"> Community Engagement </p>
+                        <p style="padding-left: 5px;"> Creative Expression </p>
+                        <p style="padding-left: 5px;"> Exercises and Reflection </p>
+                        <p style="padding-left: 5px;"> Emotional Regulation </p>
+                       
+                    </div>
+                    <div class="width-12-12-i width-3-12-i width-3-12">
+                        <img src="images/socials.png">
                     </div>
                 </div>
-                   
-                <div class="footer-bottom">
-                    <p>&copy; 2024 Transcend Sameness</p>
-                    <div class="social-icons">
-                        <a href="#"><img src="facebookicon.svg" alt="Facebook"></a>
-                        <a href="#"><img src="instaicon.svg" alt="Instagram"></a>
-                        <a href="#"><img src="tiktokicon.svg" alt="Tiktok"></a>
-                    </div>
+                <div>
+                    <p style="font-size: 8vw;">Transcend Sameness</p>
+                    
                 </div>
             </div>
-        </div>
-
-        </div>
-        </div>
-        </div>
         </div>
 
 
@@ -189,4 +150,3 @@
 </body>
 
 </html>
-
